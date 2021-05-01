@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="utf-8" lang="en">
+<meta description = "a random msm generator project">
+        <title>message generator</title>
+        <link rel="stylesheet" href="CSS\normalize.css">
+        <link rel="stylesheet" href="\CSS\main.css">
+        <link rel="stylesheet" href="msm_generator_style.css">
+        
+    </head>
+    <body>
+<h1>Welcome to Simple Random Message Generator</h1>
+<p >Hello please enter your preferable name to start the game  below</p>
+<form id = "form" onsubmit="return false"></form>
+<label for="name" >Enter name:</label><br><br>
+<input type="text" name ="name" required minlength="2" maxlength="15" id="userInput"  
+placeholder="Enter your preferable name"><br> <br>
+</form>
+<p id="trial"></p>
+<button id="but" onclick="document.getElementById('trial').innerHTML= finalMessage()">Get a msm</button>
+<script src = "interactive_msm_generator.js"></script>
+    </body>
+</html>
