@@ -1,0 +1,41 @@
+html{
+    background-color: black;
+    padding: 50px 70px 50px 70px;
+}
+body{
+    background-color: darkslategray;
+    padding: 50px 70px 50px 70px;
+    border-color: blanchedalmond;
+    border-style: ridge;
+    border-radius: 6em;
+    
+}
+h1{ 
+    text-align: center;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#trial{
+    color: white;
+font-size: 1.4em;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#but{
+    padding: 15px;
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(199, 199, 199);
+    border-color: black 15px;
+    border-radius: 1.2em;
+}
+#userInput{
+    color:rgb(52, 7, 134)
+}
+label{
+    color:gainsboro;
+    font-size: 1.2em;
+}
+p{
+    color:gainsboro;
+    font-size: 1.2em;
+}
